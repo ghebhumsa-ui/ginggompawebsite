@@ -262,6 +262,13 @@ footer p {
     color: #d4af37 !important;
 }
 
+footer .site-admin {
+    margin-top: 6px;
+    font-size: 10px;
+    letter-spacing: 0.4px;
+    opacity: 0.78;
+}
+
 /* READ MORE BUTTON */
 .read-more-btn {
     margin-top: 10px;
