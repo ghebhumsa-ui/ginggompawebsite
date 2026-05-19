@@ -19,7 +19,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16.png">
     <link rel="apple-touch-icon" href="assets/images/favicon.png">
 
-    <link rel="stylesheet" href="style.css?v=3">
+    <link rel="stylesheet" href="style.css?v=5">
 </head>
 
 <body>
@@ -45,6 +45,14 @@
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="donate.html">Donate</a></li>
                 </ul>            </nav>
+            <div class="header-language">
+                <button class="language-menu-button" type="button" aria-expanded="false" aria-controls="homepage-language-panel">Language</button>
+                <div id="homepage-language-panel" class="language-menu-panel" hidden>
+                    <button type="button" data-home-lang="en" aria-pressed="true">English</button>
+                    <button type="button" data-home-lang="ne" aria-pressed="false">नेपाली</button>
+                    <button type="button" data-home-lang="hi" aria-pressed="false">हिन्दी</button>
+                </div>
+            </div>
         </div>
     </header>
     <main>
@@ -57,13 +65,13 @@
     <div id="hero-content">
         <p class="tibetan-title">༄༅།། གསང་ཆེན་མཐོང་གྲོལ་གླིང་དགོན་པ།།</p>
         <h1>Sangchen Thongdrol Ling</h1>
-        <p class="tagline">A sacred place of liberation through seeing (Thongdrol)</p>
-        <p>A historic Buddhist monastery situated in Ging, Darjeeling.</p>
+        <p class="tagline" data-i18n="hero.tagline">A sacred place of liberation through seeing (Thongdrol)</p>
+        <p data-i18n="hero.summary">A historic Buddhist monastery situated in Ging, Darjeeling.</p>
     </div>
 </section>
 
 <section class="identity-strip">
-    <p>
+    <p data-i18n="identity.copy">
     A Nyingma monastery affiliated with Pemayangtse, with recorded history dating to the early nineteenth century.
     </p>
 </section>
@@ -72,16 +80,16 @@
 <section id="upcoming-event" class="upcoming-event">
     <div class="section-container upcoming-event-layout">
         <div class="upcoming-event-copy">
-            <p class="event-kicker">Upcoming Event</p>
-            <h2>Saga Dawa Celebration</h2>
+            <p class="event-kicker" data-i18n="saga.kicker">Upcoming Event</p>
+            <h2 data-i18n="saga.title">Saga Dawa Celebration</h2>
             <p class="event-date">31st May 2026</p>
-            <p>
+            <p data-i18n="saga.copy1">
             Dear Dharma friends and devotees, you are warmly invited to the sacred Saga Dawa Celebration at Sangchen Thongdroling Monastery, Ging, Darjeeling, West Bengal.
             </p>
-            <p>
+            <p data-i18n="saga.copy2">
             His Holiness the 10th Kyabje Gonjang Rinpoche has graciously accepted the humble request to preside over this auspicious occasion and will bestow long life prayers and blessings upon all devotees.
             </p>
-            <p class="event-rsvp">
+            <p class="event-rsvp" data-i18n="saga.rsvp">
             RSVP: Ven. Yap Lopen Yeshey Dorjee Bhutia and Committee Members
             </p>
         </div>
@@ -92,6 +100,54 @@
 </section>
 <!-- END UPCOMING EVENT -->
 
+<section class="home-update-feature">
+    <div class="section-container home-update-layout">
+        <div class="home-update-image">
+            <img src="assets/images/saga-dawa-rinpoche-2026.jpeg" alt="His Holiness the 10th Kyabje Gonjang Rinpoche" onclick="openLightbox(this.src)" loading="lazy" width="1280" height="853">
+            <p class="image-caption rinpoche-caption" data-i18n="gonjang.imageCaption">His Holiness the 10th Kyabje Gonjang Rinpoche</p>
+        </div>
+        <div class="home-update-copy">
+            <p class="event-kicker" data-i18n="gonjang.kicker">Saga Dawa Update</p>
+            <h2 data-i18n="gonjang.title">History of Gonjang Monastery</h2>
+            <p>
+            More than two hundred years ago, during the lifetime of the Sixth Gonjang Incarnation, Rigzin Padma Chöphél, Gonjang Monastery was established in the Tsang region of Tibet. Through successive incarnations, the precious Buddha Dharma was preserved, protected, and propagated continuously.
+            </p>
+            <p>
+            Later, in the year 1956, when the time of Tibet's tragic suffering ripened under the cruelty and oppression of evil forces, the Ninth Gonjang Rinpoche, Ngawang Yönten Gyatso, also passed peacefully into parinirvana. Following this, his disciples and followers searched for his reincarnation. According to the prophecy and recognition given by the great master of mantra and meditation, Kyabjé Dudjom Jigdral Yeshe Dorje, the representative of Guru Padmasambhava, the present Gonjang Tulku Rinpoche was recognized in the hidden sacred land of Sikkim, near the northern side of Guru Rinpoche's sacred cave in the eastern hidden valley.
+            </p>
+            <p>
+            This recognition was later unanimously confirmed by His Holiness the 14th Dalai Lama and both His Holinesses the Karmapas. Thereafter, the late Rinpoche's attendant Matha Drol Dorje and the disciples took responsibility for his care and education.
+            </p>
+            <p>
+            The present Gonjang Rinpoche received the oral transmission of the Kangyur from Kyabjé Dudjom Rinpoche, the empowerments and teachings of the Nyingma Kama tradition from Kyabjé Dilgo Khyentse Rinpoche, and the empowerments, transmissions, and instructions of the Northern Treasure (Jangter) tradition, including the three sections of practice cycles and Dzogchen Gongpa Zangthal, from Kyabjé Taklung Tsetrul Rinpoche.
+            </p>
+            <p>
+            In particular, from the greatly compassionate Kyabjé Dodrupchen Rinpoche, he received extensive teachings beginning from reading and writing, as well as empowerments and transmissions of the Kama and Terma traditions, the Four Cycles of Dzogchen Nyingthig, Jigling Sungbum, Nyingthig Root Texts, and the Six Volumes of the Rainbow Body teachings. Under the guidance of Dodrupchen Rinpoche, he completed a three-year retreat at Pema Öling retreat center, mainly practicing Longchen Nyingthig and engaging deeply in the meditation and realization of the luminous Great Perfection (Dzogchen).
+            </p>
+            <p>
+            In 1981, when His Holiness the Dalai Lama visited Gangtok, Sikkim, he bestowed blessings upon the land and laid the foundation for the construction of the new main temple of Gonjang Monastery, called Orgyen Do-Ngag Chökhor Ling. Under the principal responsibility of Matha Drol Dorje, the monastery's main temple and the sacred statues of the lineage masters, abbots, teachers, and the twenty-five disciples were successfully completed.
+            </p>
+            <p>
+            Likewise, in Dorjeling, under the leadership of the present Tulku, the traditions of the great Vidyadharas have been maintained without decline. Around forty monks and practitioners continue to uphold pure discipline and harmony while carrying out regular monthly tenth-day Guru Rinpoche practices, the four great Buddhist festivals blessed by Buddha Shakyamuni, memorial ceremonies for great masters, and important rituals from the Northern Treasure tradition.
+            </p>
+            <p>
+            Among the major practices continuously performed are the outer practice of Avalokiteshvara, "Liberation of All Beings"; the inner Guru Vidyadhara practice; the secret wrathful practice; and the Eight Herukas wrathful rituals and other sacred ceremonies. These traditions continue unbroken to the present day.
+            </p>
+            <p>
+            Especially, beginning from the 22nd day of the ninth Tibetan lunar month, a ten-day grand Vajrakilaya Drupchen is held annually. On the 29th day the ritual torma offering is performed, on the 30th day the fire puja and concluding activities are conducted, and on the 1st day of the next month the extensive Jangter Sang offering is performed. Through these vast spiritual activities, the monastery continues to uphold and spread the precious teachings of the Buddha with great dedication and compassion.
+            </p>
+            <p class="update-credit" data-i18n="gonjang.credit">Ven. Yap Lopen Yeshey Dorjee Bhutia</p>
+            <div class="update-map">
+                <iframe
+                    title="Gonjang Monastery location map"
+                    src="https://www.google.com/maps?q=Gonjang%20Monastery%20Gangtok%20Sikkim&output=embed"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="site-intent">
         <div class="section-container">
             <p>
@@ -101,10 +157,11 @@
     </section>
     </main>
     <footer>
-        <p class="footer-tagline">Liberation through seeing</p>
+        <p class="footer-tagline" data-i18n="footer.tagline">Liberation through seeing</p>
         <p class="tibetan-footer">མཐོང་གྲོལ་</p>
         <p>© Sangchen Thongdrol Ling Monastery</p>
-        <p class="site-admin">Site Admin: Sonam-Gyatso-Bhutia</p>
+        <p class="site-admin">Site Admin: admin@ginggompa.org</p>
+        <p class="footer-updated">Last updated: 19/May/2026</p>
     </footer>
 
 <!-- LIGHTBOX -->
@@ -112,6 +169,7 @@
     <img id="lightbox-img" src="">
 </div>
 
+<script src="homepage-locale.js?v=1" defer></script>
 <script src="script.js" defer></script>
 </body>
 </html>
