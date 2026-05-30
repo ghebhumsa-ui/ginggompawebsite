@@ -805,6 +805,33 @@ picture {
     margin-bottom: 50px;
 }
 
+.founders-feature {
+    margin: 42px 0 36px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(90, 15, 15, 0.14);
+}
+
+.founders-feature h3 {
+    margin: 0 0 18px;
+    color: #5a0f0f;
+    font-size: 22px;
+    line-height: 1.35;
+}
+
+.founders-feature p {
+    margin-bottom: 12px;
+}
+
+.founders-image-wrapper {
+    margin: 18px 0 20px;
+}
+
+#lhatsun .founders-image {
+    width: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
 .gallery-archival-heading h3 {
     font-size: 18px;
     font-weight: 600;
@@ -949,6 +976,15 @@ picture {
     #lhatsun .section-image {
         max-width: 100%;
         max-height: none;
+    }
+
+    .founders-feature {
+        margin: 34px 0 28px;
+        padding-top: 20px;
+    }
+
+    .founders-feature h3 {
+        font-size: 19px;
     }
 
     .image-caption,
